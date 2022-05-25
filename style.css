@@ -29,13 +29,28 @@ body {
     font-weight: bold;
 }
 
+/*Set color for input and placeholder element*/
+input, ::placeholder {
+    color: white;
+    padding: none;
+    background: none;
+    border:none;
+}
+
+/*nullify input field border and outline while on focus*/
+input:focus {
+    border: none;
+    outline: none;
+}
+
 #amount {
-    font-size: 4em;
+    font-size: 3.7em;
+    width: 50%;
+    margin: 0px auto;
 }
 
 #calculations {
-    background-color: rgba(251, 247, 238, 1); /* //Light Theme */
-    /*background-color: rgba(31, 41, 55, 1); // Dark Theme*/
+    background-color: rgba(251, 247, 238, 1);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
